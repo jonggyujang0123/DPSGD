@@ -9,6 +9,10 @@ python main.py [mode] [config] [gpuids]
 python main.py train configs/mnist_exp_0.yaml 0,1
 ```
 
+## Requirements
+```
+pip install ml-collections
+```
 
 
 ## Wandb implementation 
