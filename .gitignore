@@ -104,8 +104,8 @@ ENV/
 .idea/
 
 # Experiments
-experiments/*
-!experiments/.keep
+output/*
+!output/.keep
 
 # Pretrained Weights
 pretrained_weights/*
