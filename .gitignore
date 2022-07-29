@@ -112,6 +112,7 @@ pretrained_weights/*
 !pretrained_weights/.keep
 
 # Data
+data/*
 */data/*
 !data/.keep
 */wandb/*
