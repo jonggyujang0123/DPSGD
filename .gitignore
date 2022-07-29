@@ -104,14 +104,14 @@ ENV/
 .idea/
 
 # Experiments
-output/*
-!output/.keep
+experiments/*
+!experiments/.keep
 
 # Pretrained Weights
 pretrained_weights/*
 !pretrained_weights/.keep
 
 # Data
-data/*
+*/data/*
 !data/.keep
-wandb/*
+*/wandb/*

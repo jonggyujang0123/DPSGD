@@ -13,6 +13,8 @@ class R_50_MNIST(nn.Module):
         self.model.fc = nn.Linear(in_features,in_features)
         self.cls_head = nn.Sequential(
                 nn.ReLU(),
+                nn.Linear(in_features, in_features),
+                nn.ReLU(),
                 nn.Linear(in_features, num_classes))
 
 
