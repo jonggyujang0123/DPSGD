@@ -238,7 +238,7 @@ def main():
     if args.multigpu:
         args.local_rank = int(os.environ["LOCAL_RANK"])
         if int(os.environ["RANK"]) !=0:
-            cfg.wandb.activate=False
+            cfg.wandb.active=False
     else:
         args.local_rank = -1
 
