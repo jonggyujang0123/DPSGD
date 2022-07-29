@@ -29,23 +29,23 @@ def get_loader_cifar(cfg, args):
         torch.distributed.barrier()
 
     if cfg.dataset == "cifar10":
-        dataset_train = datasets.CIFAR10(root="./data",
+        dataset_train = datasets.CIFAR10(root="../data",
                                          train=True,
                                          download=True,
                                          transform = transform_train,
                                          )
-        dataset_test = datasets.CIFAR10(root="./data",
+        dataset_test = datasets.CIFAR10(root="../data",
                                          train=False,
                                          download=True,
                                          transform=transform_test,
                                          ) if args.local_rank in [-1, 0] else None
     elif cfg.dataset == "cifar100":
-        dataset_train = datasets.CIFAR100(root="./data",
+        dataset_train = datasets.CIFAR100(root="../data",
                                          train=True,
                                          download=True,
                                          transform = transform_train,
                                          )
-        dataset_test = datasets.CIFAR100(root="./data",
+        dataset_test = datasets.CIFAR100(root="../data",
                                          train=False,
                                          download=True,
                                          transform=transform_test,
