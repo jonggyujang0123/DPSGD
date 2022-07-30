@@ -9,8 +9,8 @@ warmup_steps : 100
 random_seed : 0
 # ------ Dataset
 dataset: 'cifar100'
-train_batch_size: 128
-test_batch_size: 128
+train_batch_size: 64
+test_batch_size: 64
 pin_memory : True
 num_classes : 100
 img_size : 224
