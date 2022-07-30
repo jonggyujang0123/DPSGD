@@ -1,6 +1,6 @@
 # Pytorch-Project-Template
 
-##Features
+## Features
 - (multi-node/gpu) (training/evaluation/test)
 - Weight and bias (Wandb) MLopt
 - Easy Code Structure
@@ -24,6 +24,8 @@ conda create -n torch python=3.9
 conda activate torch
 conda install pytorch==1.12.0 torchvision==0.13.0 -c pytorch
 pip install tqdm easydict wandb imageio
+cd canonicalSGD
+python setup.py develop
 ```
 
 ### Wandb
