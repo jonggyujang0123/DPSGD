@@ -2,7 +2,7 @@
 
 ## Features
 - (multi-node/gpu) (training/validation/test)
-- Weight and bias (Wandb) MLopt
+- Weight and bias (Wandb) MLops
 - Easy Code Structure
 - CIFAR10/100 dataset, (*you can add your custom dataset easily)
 - Customizable configuration
