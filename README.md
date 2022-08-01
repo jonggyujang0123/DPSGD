@@ -1,7 +1,7 @@
 # Pytorch-Project-Template
 
 ## Features
-- (multi-node/gpu) (training/evaluation/test)
+- (multi-node/gpu) (training/validation/test)
 - Weight and bias (Wandb) MLopt
 - Easy Code Structure
 - CIFAR10/100 dataset, (*you can add your custom dataset easily)
