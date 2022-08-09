@@ -66,7 +66,7 @@ python tools/main.py --config config/...yaml --test 1
 ### Training
 
 ```
-sh tools/dist_train.sh <ConfigFile> <#GPUS> -RESUME (0 or 1) 
+sh tools/dist_train.sh <ConfigFile> <#GPUS> <1(optional for resume)>  
 ```
 
 ### Test
