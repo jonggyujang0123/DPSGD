@@ -66,13 +66,13 @@ python tools/main.py --config config/...yaml --test 1
 ### Training
 
 ```
-sh tools/dist_train.sh <#GPUS> --RESUME 1
+sh tools/dist_train.sh <ConfigFile> <#GPUS> --RESUME (0 or 1) 
 ```
 
 ### Test
 
 ```
-sh tools/dist_test.sh <#GPUS>
+sh tools/dist_test.sh <ConfigFile> <#GPUS>
 ```
 
 ## Results
